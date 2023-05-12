@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T11:09:27 IST" name="FunctionalTestSuite" finished-at="2023-03-27T11:09:27 IST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T11:09:27 IST" name="FunctionalTesting" finished-at="2023-03-27T11:09:27 IST" duration-ms="68">
+      <class name="batchTesting.HomeScreenTest">
+        <test-method signature="launchApplication()[pri:0, instance:batchTesting.HomeScreenTest@741a8937]" started-at="2023-03-27T11:09:27 IST" name="launchApplication" finished-at="2023-03-27T11:09:27 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLogo()[pri:0, instance:batchTesting.HomeScreenTest@741a8937]" started-at="2023-03-27T11:09:27 IST" name="verifyLogo" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="verifyTitle()[pri:0, instance:batchTesting.HomeScreenTest@741a8937]" started-at="2023-03-27T11:09:27 IST" name="verifyTitle" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- batchTesting.HomeScreenTest -->
+      <class name="batchTesting.PaymentTest">
+        <test-method signature="cashOnDelivery()[pri:0, instance:batchTesting.PaymentTest@ffaa6af]" started-at="2023-03-27T11:09:27 IST" name="cashOnDelivery" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashOnDelivery -->
+        <test-method signature="netBanking()[pri:0, instance:batchTesting.PaymentTest@ffaa6af]" started-at="2023-03-27T11:09:27 IST" name="netBanking" finished-at="2023-03-27T11:09:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- netBanking -->
+      </class> <!-- batchTesting.PaymentTest -->
+      <class name="batchTesting.ProductPageTest">
+        <test-method signature="AddProductToCart()[pri:0, instance:batchTesting.ProductPageTest@6404f418]" started-at="2023-03-27T11:09:27 IST" name="AddProductToCart" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+        <test-method signature="AddProductToWishlist()[pri:0, instance:batchTesting.ProductPageTest@6404f418]" started-at="2023-03-27T11:09:27 IST" name="AddProductToWishlist" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToWishlist -->
+        <test-method signature="SelectQuantity()[pri:0, instance:batchTesting.ProductPageTest@6404f418]" started-at="2023-03-27T11:09:27 IST" name="SelectQuantity" finished-at="2023-03-27T11:09:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectQuantity -->
+      </class> <!-- batchTesting.ProductPageTest -->
+      <class name="batchTesting.LoginTest">
+        <test-method signature="loginByEmail()[pri:0, instance:batchTesting.LoginTest@3e11f9e9]" started-at="2023-03-27T11:09:27 IST" name="loginByEmail" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByEmail -->
+        <test-method signature="loginByMobileNumber()[pri:0, instance:batchTesting.LoginTest@3e11f9e9]" started-at="2023-03-27T11:09:27 IST" name="loginByMobileNumber" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByMobileNumber -->
+      </class> <!-- batchTesting.LoginTest -->
+    </test> <!-- FunctionalTesting -->
+  </suite> <!-- FunctionalTestSuite -->
+  <suite started-at="2023-03-27T11:09:27 IST" name="SanityTestSuite" finished-at="2023-03-27T11:09:27 IST" duration-ms="22">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T11:09:27 IST" name="SanityTesting" finished-at="2023-03-27T11:09:27 IST" duration-ms="22">
+      <class name="batchTesting.HomeScreenTest">
+        <test-method signature="launchApplication()[pri:0, instance:batchTesting.HomeScreenTest@229c6181]" started-at="2023-03-27T11:09:27 IST" name="launchApplication" finished-at="2023-03-27T11:09:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLogo()[pri:0, instance:batchTesting.HomeScreenTest@229c6181]" started-at="2023-03-27T11:09:27 IST" name="verifyLogo" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="verifyTitle()[pri:0, instance:batchTesting.HomeScreenTest@229c6181]" started-at="2023-03-27T11:09:27 IST" name="verifyTitle" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- batchTesting.HomeScreenTest -->
+      <class name="batchTesting.PaymentTest">
+        <test-method signature="cashOnDelivery()[pri:0, instance:batchTesting.PaymentTest@4686afc2]" started-at="2023-03-27T11:09:27 IST" name="cashOnDelivery" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashOnDelivery -->
+        <test-method signature="netBanking()[pri:0, instance:batchTesting.PaymentTest@4686afc2]" started-at="2023-03-27T11:09:27 IST" name="netBanking" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- netBanking -->
+      </class> <!-- batchTesting.PaymentTest -->
+      <class name="batchTesting.LoginTest">
+        <test-method signature="loginByEmail()[pri:0, instance:batchTesting.LoginTest@791f145a]" started-at="2023-03-27T11:09:27 IST" name="loginByEmail" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByEmail -->
+        <test-method signature="loginByMobileNumber()[pri:0, instance:batchTesting.LoginTest@791f145a]" started-at="2023-03-27T11:09:27 IST" name="loginByMobileNumber" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByMobileNumber -->
+      </class> <!-- batchTesting.LoginTest -->
+      <class name="batchTesting.ProductPageTest">
+        <test-method signature="AddProductToCart()[pri:0, instance:batchTesting.ProductPageTest@1e0b4072]" started-at="2023-03-27T11:09:27 IST" name="AddProductToCart" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+        <test-method signature="AddProductToWishlist()[pri:0, instance:batchTesting.ProductPageTest@1e0b4072]" started-at="2023-03-27T11:09:27 IST" name="AddProductToWishlist" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToWishlist -->
+        <test-method signature="SelectQuantity()[pri:0, instance:batchTesting.ProductPageTest@1e0b4072]" started-at="2023-03-27T11:09:27 IST" name="SelectQuantity" finished-at="2023-03-27T11:09:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectQuantity -->
+      </class> <!-- batchTesting.ProductPageTest -->
+    </test> <!-- SanityTesting -->
+  </suite> <!-- SanityTestSuite -->
+  <suite started-at="2023-03-27T11:09:27 IST" name="Master Suite" finished-at="2023-03-27T11:09:27 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Master Suite -->
+</testng-results>
